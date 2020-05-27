@@ -1,0 +1,58 @@
+.header__tm-image-box {
+	width: 100%;
+	margin-top: 6rem;
+	height: 92vh;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-primary, 1),
+		rgba($color-secondary, 1)
+	);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.heading__tm-text-box {
+	@include absCenter;
+	width: 100%;
+}
+
+.article-tm-about {
+	background-color: $color-extra-black;
+	padding-top: 15rem;
+	padding-bottom: 20rem;
+}
+
+.article-features--special {
+	background-color: $color-black;
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+}
+
+.article-progress {
+	background-color: $color-extra-black;
+	padding-top: 16rem;
+	padding-bottom: 10rem;
+}
+
+.article-form {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	background-color: $color-black;
+}
+
+.article-contact {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-primary, 1),
+		rgba($color-secondary, 1)
+	);
+	background-position: center;
+	background-size: cover;
+}
+
+.special-features {
+	margin-top: -17rem;
+}
